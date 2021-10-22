@@ -1,0 +1,22 @@
+// базовые подключения
+@import "vars";
+@import "mixins";
+@import "fonts";
+@import "settings";
+
+// мелкие компоненты
+@import "./components/button";
+@import "./components/icon-block";
+@import "./components/menu";
+@import "./components/burger";
+
+// подключения компонентов страницы
+@import "./components/header";
+@import "./components/hero";
+@import "./components/catalog";
+@import "./components/steps";
+@import "./components/instagram-section";
+@import "./components/about";
+@import "./components/question";
+@import "./components/form";
+@import "./components/footer";

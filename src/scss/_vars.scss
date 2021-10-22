@@ -1,0 +1,36 @@
+// если вы хотите использовать sass-переменные - удалите root
+:root {
+  // colors
+  --color-black: #000;
+  --color-white: #fff;
+  --color-text: #474132;
+  --color-gray: #fafafa;
+  --color-border: #d1cec7;
+  --color-accent: #edba4b;
+  --color-ecru: #f9f6f0;
+  --color-small-text: #756d59;
+  --color-gradient: linear-gradient(270deg, #feca56 0%, #ebb949 51%, #feca56 100%);
+
+  // shadows
+  --shadow-main: 0 30px 50px rgba(221, 215, 198, 0.2);
+  --shadow-second: 0 0 80px rgba(221, 215, 198, 0.1);
+  --shadow-button-main: 0 50px 50px rgba(235, 185, 73, 0.2);
+  --shadow-button-second: 0 50px 50px rgba(235, 185, 73, 0.1);
+
+  // fonts
+  --ff-main: "Manrope", sans-serif;
+  --ff-second: "Trirong", sans-serif;
+  --font-h1: 400 4.25rem / 140% var(--ff-second); // 68px
+  --font-h2: 400 3.5rem / 150% var(--ff-second);  // 56px
+  --font-logo: 400 2rem / 125% var(--ff-second);// 32px
+  --font-sm-title: 400 1.5rem / 150% var(--ff-second);// 24px
+  --font-qa-title: 400 1.375rem / 150% var(--ff-second);// 22px
+  --font-card-title: 600 1.25rem / 170% var(--ff-main);// 20px
+  --font-2md: 400 1.125rem / 170% var(--ff-main);// 18px
+  --font-md: 400 1rem / 110% var(--ff-main);    // 16px
+  --font-sm: 400 0.875rem / 110% var(--ff-main);// 14px
+  --font-xsm: 400 0.75rem / 110% var(--ff-main);// 12px
+
+  // animation
+  --animation-500ms: 0.5s ease-out;
+}

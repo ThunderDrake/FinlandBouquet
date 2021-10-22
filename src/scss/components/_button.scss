@@ -1,0 +1,19 @@
+.button {
+  border: none;
+  border-radius: 14px;
+  box-shadow: var(--shadow-button-main);
+  font-family: var(--ff-main);
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  text-align: center;
+  text-transform: uppercase;
+  color: #5f5644;
+  background: var(--color-gradient);
+  background-size: 200% auto;
+  transition: background-position var(--animation-500ms);
+  cursor: pointer;
+
+  &:hover {
+    background-position: right center;
+  }
+}
