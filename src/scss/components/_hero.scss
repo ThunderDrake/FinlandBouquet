@@ -61,6 +61,8 @@
   }
 
   &__image {
+    width: 860px;
+
     @media screen and (max-width: 840px) {
       width: 100%;
       object-fit: cover;
@@ -163,6 +165,8 @@
     }
 
     &-emoji {
+      width: 46px;
+      height: 46px;
       position: absolute;
       right: 45px;
       top: -12px;

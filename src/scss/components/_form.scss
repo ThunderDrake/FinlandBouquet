@@ -99,6 +99,8 @@
     }
 
     &-emoji {
+      width: 32px;
+      height: 32px;
       position: absolute;
       right: 45px;
       top: -8px;
@@ -164,6 +166,10 @@
     &::placeholder {
       font: var(--font-2md);
       color: rgba(71, 65, 50, 0.8);
+    }
+
+    &:focus-visible {
+      outline-color: var(--color-accent);
     }
 
     @media screen and (max-width: 768px) {

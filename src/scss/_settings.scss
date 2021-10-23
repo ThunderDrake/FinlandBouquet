@@ -93,3 +93,7 @@ a {
 .no-scrolling {
   overflow: hidden;
 }
+
+.visually-hidden {
+  @include visually-hidden;
+}
