@@ -78,10 +78,9 @@
 
   &__author-wrapper {
     display: flex;
-    flex-direction: column;
   }
 
   &__author:not(:last-child) {
-    margin-bottom: 10px;
+    margin-right: 10px;
   }
 }

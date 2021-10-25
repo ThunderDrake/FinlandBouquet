@@ -129,6 +129,20 @@
     width: 58px;
     height: 58px;
 
+    &-back {
+      fill: var(--color-white);
+    }
+
+    &-circle {
+      fill: transparent;
+      stroke: transparent;
+
+      &--added {
+        fill: url("#gradient2");
+        stroke: #f8f3e6;
+      }
+    }
+
     @media screen and (max-width: 769px) {
       margin-left: unset;
     }
@@ -162,8 +176,8 @@
 
 .phone__icon {
   margin-right: 20px;
-  width: 19px;
-  height: 19px;
+  width: 14px;
+  height: 14px;
 
   @media screen and (max-width: 450px) {
     margin-right: 12px;
@@ -180,6 +194,28 @@
   }
 }
 
+.instagram {
+  &__icon {
+    fill: url("#insta");
+  }
+
+  stop {
+    transition: 0.5s ease-out;
+  }
+
+  svg:hover stop:first-child {
+    stop-color: #feca56;
+  }
+
+  svg:hover stop:last-child {
+    stop-color: #ebb949;
+  }
+}
+
 .header-static {
   position: static;
+
+  .header__cart-back {
+    fill: #fafafa;
+  }
 }

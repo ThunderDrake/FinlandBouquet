@@ -4,16 +4,6 @@ const quantityButton = document.querySelectorAll('.product-card__quantity-button
 const quantityNumber = document.querySelector('.product-card__quantity-number');
 const productButton = document.querySelector('.product-card__button');
 
-radioButtons.forEach(el => {
-  el.addEventListener('click',(e) => {
-    if (e.target.checked) {
-      e.target.closest('.product-card__size-label').classList.toggle('product-card__size-label--active');
-    } else {
-      e.target.closest('.product-card__size-label').classList.remove('product-card__size-label--active');
-    }
-  });
-});
-
 let quantity = 1;
 
 quantityButton.forEach(el => {
