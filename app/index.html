@@ -1,1 +1,579 @@
-<!DOCTYPE html><html lang="fi"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1"><link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon"><meta http-equiv="X-UA-Compatible" content="ie=edge"><meta name="theme-color" content="#111111"><title>New site</title><link rel="stylesheet" href="css/vendor.css"><link rel="stylesheet" href="css/main.css"></head><body><div class="site-container"><section class="hero-wrapper"><header class="header"><div class="header__container container"><button class="header__mobile-button burger"><span class="burger__line"></span></button> <a href="/" class="header__logo logo">namikimppu</a><div class="header__menu"><ul class="header__menu-list menu"><li class="menu__item"><a href="#" class="menu__link">Katalogi</a></li><li class="menu__item"><a href="#" class="menu__link">Miten tehdä tilaus</a></li><li class="menu__item"><a href="#" class="menu__link">Meistä</a></li><li class="menu__item"><a href="#" class="menu__link">Yleisiä kysymyksiä</a></li><li class="menu__item"><a href="#" class="menu__link">Palautteet</a></li></ul><div class="header__contacts"><a href="tel:+1234567890" class="header__phone phone"><svg class="phone__icon"><use xlink:href="img/sprite.svg#phone-icon"></use></svg> +358 40 717 4888 </a><a href="#" class="header__insta instagram"><svg viewBox="0 0 30 31" fill="none" xmlns="http://www.w3.org/2000/svg"><path class="instagram__icon" d="M1.95689 2.08325C-0.393836 4.52496 0.0872779 7.11874 0.0872779 14.9985C0.0872779 21.5422 -1.05443 28.102 4.92085 29.6463C6.78672 30.1262 23.3191 30.1262 25.1825 29.6438C27.6703 29.0019 29.6945 26.984 29.9712 23.4654C30.0098 22.9743 30.0098 7.03149 29.9699 6.53043C29.6758 2.78248 27.3687 0.622458 24.3287 0.184968C23.6319 0.0840091 23.4923 0.0540953 19.9176 0.0478633C7.23792 0.0540953 4.45843 -0.510528 1.95689 2.08325Z"/><path d="M15.0406 3.96031C10.5149 3.96031 6.2173 3.55772 4.57578 7.77058C3.89773 9.51056 3.9962 11.7703 3.9962 15.006C3.9962 17.8453 3.90521 20.5139 4.57578 22.2401C6.21356 26.4555 10.5461 26.0517 15.0381 26.0517C19.3719 26.0517 23.8403 26.5028 25.5017 22.2401C26.181 20.4827 26.0813 18.2566 26.0813 15.006C26.0813 10.6909 26.3194 7.90519 24.2267 5.81371C22.1078 3.69482 19.2423 3.96031 15.0356 3.96031H15.0406ZM14.051 5.95082C23.4913 5.93586 24.6928 4.88639 24.0297 19.4656C23.7941 24.622 19.868 24.0561 15.0419 24.0561C6.24223 24.0561 5.98921 23.8044 5.98921 15.001C5.98921 6.0954 6.68719 5.95581 14.051 5.94833V5.95082ZM20.9361 7.78429C20.2045 7.78429 19.6112 8.37758 19.6112 9.10922C19.6112 9.84086 20.2045 10.4342 20.9361 10.4342C21.6678 10.4342 22.2611 9.84086 22.2611 9.10922C22.2611 8.37758 21.6678 7.78429 20.9361 7.78429ZM15.0406 9.33357C11.9084 9.33357 9.36947 11.8738 9.36947 15.006C9.36947 18.1382 11.9084 20.6771 15.0406 20.6771C18.1728 20.6771 20.7105 18.1382 20.7105 15.006C20.7105 11.8738 18.1728 9.33357 15.0406 9.33357ZM15.0406 11.3241C19.9078 11.3241 19.9141 18.6879 15.0406 18.6879C10.1746 18.6879 10.1672 11.3241 15.0406 11.3241Z" fill="white"/><defs><linearGradient id="insta" x1="30" y1="30.0059" x2="-8.90078e-07" y2="30.0059" gradientUnits="userSpaceOnUse"><stop stop-color="#EBB949"/><stop offset="1" stop-color="#FECA56"/></linearGradient></defs></svg></a></div></div><a href="#" class="header__cart cart"><svg viewBox="0 0 58 58" fill="none" xmlns="http://www.w3.org/2000/svg"><circle class="header__cart-back" cx="29" cy="29" r="29"/><path d="M42.0832 23.3273C41.9507 23.197 41.7654 23.1353 41.5811 23.1599H34.3847V19.9801C34.3847 16.8375 31.8371 14.2899 28.6945 14.2899C25.5519 14.2899 23.0043 16.8375 23.0043 19.9801V23.1599H15.8078C15.6069 23.1599 15.4061 23.1599 15.3057 23.3273C15.1707 23.457 15.1081 23.6447 15.1383 23.8294L17.6487 37.5529C17.9994 39.4673 19.6524 40.8681 21.5984 40.9001H35.7905C37.742 40.8521 39.3916 39.4402 39.7402 37.5194L42.2506 23.8294C42.2808 23.6447 42.2182 23.457 42.0832 23.3273ZM24.3431 19.9801C24.3431 17.5769 26.2913 15.6288 28.6944 15.6288C31.0976 15.6288 33.0458 17.5769 33.0458 19.9801V23.1599H24.3431V19.9801ZM38.4013 37.352C38.1758 38.6206 37.0789 39.5488 35.7905 39.5612H21.5984C20.31 39.5488 19.2131 38.6207 18.9876 37.352L16.6111 24.4988H40.7778L38.4013 37.352Z" fill="#474132"/><circle cx="36.9859" cy="38.3783" r="4.54348" fill="url(#gradient2)" stroke="#F8F3E6"/><defs><linearGradient id="gradient2" x1="42.0293" y1="43.4218" x2="31.9424" y2="43.4218" gradientUnits="userSpaceOnUse"><stop stop-color="#EBB949"/><stop offset="1" stop-color="#FECA56"/></linearGradient></defs></svg></a></div></header><section class="hero"><div class="hero__container container"><div class="hero__descr"><h1 class="hero__title">Syötävä kimppu on paras ratkaisu kaikkiin juhliin</h1><div class="hero__adv"><div class="hero__adv-item icon-block"><svg class="icon-block__icon" width="28" height="13" viewBox="0 0 28 13" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M0.0351562 0C0.547903 7.26528 6.60424 13 14 13C21.3957 13 27.4521 7.26528 27.9648 0H23.9506C23.4489 5.05332 19.1853 9 14 9C8.81464 9 4.55109 5.05332 4.04937 0H0.0351562Z" fill="url(#paint0_linear_1045:538)"/><defs><linearGradient id="paint0_linear_1045:538" x1="27.9648" y1="13" x2="0.0351554" y2="13" gradientUnits="userSpaceOnUse"><stop stop-color="#EBB949"/><stop offset="1" stop-color="#FECA56"/></linearGradient></defs></svg><div class="icon-block__text"><span>Yleinen lahja</span> kaikkiin tilanteisiin</div></div><div class="hero__adv-item icon-block"><svg class="icon-block__icon" width="28" height="13" viewBox="0 0 28 13" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M0.0351562 0C0.547903 7.26528 6.60424 13 14 13C21.3957 13 27.4521 7.26528 27.9648 0H23.9506C23.4489 5.05332 19.1853 9 14 9C8.81464 9 4.55109 5.05332 4.04937 0H0.0351562Z" fill="url(#paint0_linear_1045:538)"/><defs><linearGradient id="paint0_linear_1045:538" x1="27.9648" y1="13" x2="0.0351554" y2="13" gradientUnits="userSpaceOnUse"><stop stop-color="#EBB949"/><stop offset="1" stop-color="#FECA56"/></linearGradient></defs></svg><div class="icon-block__text">Paras <span>tapa säästää</span> aikaa lahjaa valittaessa</div></div></div><button class="hero__button button">Valitse kimppu</button></div><div class="hero__image-block"><picture><source srcset="img/hero-img-mobile.png" media="(max-width: 840px)"><img class="hero__image" src="img/hero-img.png" alt=""></picture><div class="hero__message" aria-hidden="true"><div class="hero__message-wrapper"><div class="hero__message-title"><img src="img/hero__message-avatar.jpg" class="hero__message-avatar"><div class="hero__message-name">Anna Höglund</div></div><img src="img/hero__message-emoji.png" class="hero__message-emoji"><p class="hero__message-text">Syötävä kimppu on <span>erinomainen vaihtoehto</span> kukkakimpulle</p></div></div></div></div></section></section><section class="catalog"><div class="catalog__container container"><h2 class="catalog__title h2-title">Kimppu luettelo</h2><ul class="catalog__label-list"><li class="catalog__category-item"><div class="catalog__label catalog__label--active" data-filter=".makeasta">Makeasta</div></li><li class="catalog__category-item"><div class="catalog__label" data-filter=".hedelmistä">Hedelmistä</div></li><li class="catalog__category-item"><div class="catalog__label" data-filter=".vihanneksista">Vihanneksista</div></li><li class="catalog__category-item"><div class="catalog__label" data-filter=".lomalle">Lomalle</div></li><li class="catalog__category-item"><div class="catalog__label" data-filter=".namikuppi">Namikuppi</div></li><li class="catalog__category-item"><div class="catalog__label" data-filter=".lapsille">Lapsille</div></li><li class="catalog__category-item"><div class="catalog__label" data-filter=".muut">Muut</div></li><li class="catalog__category-item"><div class="catalog__label" data-filter=".lisää">Lisää</div></li></ul><div class="catalog__wrapper grid"><div href="#" class="catalog__item card makeasta"><a href="#" class="card__page-link"><img src="img/card-img.jpg" class="card__image"></a><div class="card__info"><div class="card__title">Nimi Suklaaunelma</div><p class="card__descr">Sisältö: Ferrero rocher, Susu, Vohvelipala, Suklaakonvehti</p><div class="card__price">alkaen 30€</div><button href="#" class="card__button button">Valitse</button></div></div><div href="#" class="catalog__item card makeasta"><a href="#" class="card__page-link"><img src="img/card-img.jpg" class="card__image"></a><div class="card__info"><div class="card__title">Nimi Suklaaunelma</div><p class="card__descr">Sisältö: Ferrero rocher, Susu, Vohvelipala, Suklaakonvehti</p><div class="card__price">alkaen 30€</div><button href="#" class="card__button button">Valitse</button></div></div><div href="#" class="catalog__item card makeasta"><a href="#" class="card__page-link"><img src="img/card-img.jpg" class="card__image"></a><div class="card__info"><div class="card__title">Nimi Suklaaunelma</div><p class="card__descr">Sisältö: Ferrero rocher, Susu, Vohvelipala, Suklaakonvehti</p><div class="card__price">alkaen 30€</div><button href="#" class="card__button button">Valitse</button></div></div><div href="#" class="catalog__item card makeasta"><a href="#" class="card__page-link"><img src="img/card-img.jpg" class="card__image"></a><div class="card__info"><div class="card__title">Nimi Suklaaunelma</div><p class="card__descr">Sisältö: Ferrero rocher, Susu, Vohvelipala, Suklaakonvehti</p><div class="card__price">alkaen 30€</div><button href="#" class="card__button button">Valitse</button></div></div><div href="#" class="catalog__item card makeasta"><a href="#" class="card__page-link"><img src="img/card-img.jpg" class="card__image"></a><div class="card__info"><div class="card__title">Nimi Suklaaunelma</div><p class="card__descr">Sisältö: Ferrero rocher, Susu, Vohvelipala, Suklaakonvehti</p><div class="card__price">alkaen 30€</div><button href="#" class="card__button button">Valitse</button></div></div><div href="#" class="catalog__item card makeasta"><a href="#" class="card__page-link"><img src="img/card-img.jpg" class="card__image"></a><div class="card__info"><div class="card__title">Nimi Suklaaunelma</div><p class="card__descr">Sisältö: Ferrero rocher, Susu, Vohvelipala, Suklaakonvehti</p><div class="card__price">alkaen 30€</div><button href="#" class="card__button button">Valitse</button></div></div><div href="#" class="catalog__item card makeasta"><a href="#" class="card__page-link"><img src="img/card-img.jpg" class="card__image"></a><div class="card__info"><div class="card__title">Nimi Suklaaunelma</div><p class="card__descr">Sisältö: Ferrero rocher, Susu, Vohvelipala, Suklaakonvehti</p><div class="card__price">alkaen 30€</div><button href="#" class="card__button button">Valitse</button></div></div><div href="#" class="catalog__item card makeasta"><a href="#" class="card__page-link"><img src="img/card-img.jpg" class="card__image"></a><div class="card__info"><div class="card__title">Nimi Suklaaunelma</div><p class="card__descr">Sisältö: Ferrero rocher, Susu, Vohvelipala, Suklaakonvehti</p><div class="card__price">alkaen 30€</div><button href="#" class="card__button button">Valitse</button></div></div><div href="#" class="catalog__item card makeasta"><a href="#" class="card__page-link"><img src="img/card-img.jpg" class="card__image"></a><div class="card__info"><div class="card__title">Nimi Suklaaunelma</div><p class="card__descr">Sisältö: Ferrero rocher, Susu, Vohvelipala, Suklaakonvehti</p><div class="card__price">alkaen 30€</div><button href="#" class="card__button button">Valitse</button></div></div><div href="#" class="catalog__item card hedelmistä"><a href="#" class="card__page-link"><img src="img/card-img.jpg" class="card__image"></a><div class="card__info"><div class="card__title">Nimi Suklaaunelma 1</div><p class="card__descr">Sisältö: Ferrero rocher, Susu, Vohvelipala, Suklaakonvehti</p><div class="card__price">alkaen 30€</div><button href="#" class="card__button button">Valitse</button></div></div><div href="#" class="catalog__item card hedelmistä"><a href="#" class="card__page-link"><img src="img/card-img.jpg" class="card__image"></a><div class="card__info"><div class="card__title">Nimi Suklaaunelma 1</div><p class="card__descr">Sisältö: Ferrero rocher, Susu, Vohvelipala, Suklaakonvehti</p><div class="card__price">alkaen 30€</div><button href="#" class="card__button button">Valitse</button></div></div><div href="#" class="catalog__item card hedelmistä"><a href="#" class="card__page-link"><img src="img/card-img.jpg" class="card__image"></a><div class="card__info"><div class="card__title">Nimi Suklaaunelma 1</div><p class="card__descr">Sisältö: Ferrero rocher, Susu, Vohvelipala, Suklaakonvehti</p><div class="card__price">alkaen 30€</div><button href="#" class="card__button button">Valitse</button></div></div><div href="#" class="catalog__item card constructor"><a href="#" class="card__page-link"><img src="img/card-img.jpg" class="card__image"></a><div class="card__info"><div class="card__title">Nimi Suklaaunelma 2</div><p class="card__descr">Sisältö: Ferrero rocher, Susu, Vohvelipala, Suklaakonvehti</p><div class="card__price">alkaen 30€</div><button href="#" class="card__button button">Valitse</button></div></div></div></div></section><section class="steps"><div class="steps__container container"><h2 class="steps__title h2-title">Tee tilauksesi verkkosivustomme kautta</h2><div class="steps__wrapper"><div class="steps__item step-item step-item--first"><span class="step-item__counter">Vaihe 1</span><h3 class="step-item__title">Valitse kimppu</h3><p class="step-item__descr">Tee tilauksesi siirtymällä ostoskoriin. Syötä yhteystietosi oikein, jotta voimme olla sinuun yhteydessä.</p></div><div class="steps__item step-item step-item--second"><span class="step-item__counter">Vaihe 2</span><h3 class="step-item__title">Maksa</h3><p class="step-item__descr">Tee 100% ennakkomaksu kimpusta. Hyväksymme: Visa / MasterCard / PayPal</p></div><div class="steps__item step-item step-item--third"><span class="step-item__counter">Vaihe 3</span><h3 class="step-item__title">Odota toimitusta tai nouda se itse</h3><p class="step-item__descr">Teemme yhteistyötä DHL-toimitusten kanssa. Tai voitte noutaa kukkakimpun itse osoitteesta.</p><a href="#" class="step-item__link">Lue lisää toimituksesta</a></div></div></div></section><section class="instagram-section"><div class="instagram-section__container container"><div class="instagram-section__text"><h2 class="instagram-section__title h2-title">Yli 50 ihmistä on jo tilannut syötävän kimpun meiltä</h2><div class="instagram-section__descr"><svg class="instagram-section__descr-icon" width="28" height="13" viewBox="0 0 28 13" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M0.0351562 0C0.547903 7.26528 6.60424 13 14 13C21.3957 13 27.4521 7.26528 27.9648 0H23.9506C23.4489 5.05332 19.1853 9 14 9C8.81464 9 4.55109 5.05332 4.04937 0H0.0351562Z" fill="url(#paint0_linear_1045:538)"/><defs><linearGradient id="paint0_linear_1045:538" x1="27.9648" y1="13" x2="0.0351554" y2="13" gradientUnits="userSpaceOnUse"><stop stop-color="#EBB949"/><stop offset="1" stop-color="#FECA56"/></linearGradient></defs></svg><div class="instagram-section__descr-block">Voitte tutustua meidän asiakkaiden palautteeseen ja mielipiteisiin, joita saamme koko ajan meidän Instagramiin. Voitte seurata meitä sieltä ja laittaa kommentteja</div></div><a href="#" class="instagram-section__link"><span class="instagram-section__link-text">Instagram</span> <svg class="instagram-section__link-icon" width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M1.38147 1.47066C-0.27803 3.19439 0.0616142 5.02548 0.0616142 10.5883C0.0616142 15.2078 -0.744381 19.8387 3.47389 20.9289C4.79111 21.2677 16.4622 21.2677 17.7777 20.9272C19.534 20.474 20.9629 19.0494 21.1583 16.5655C21.1855 16.2188 21.1855 4.96389 21.1574 4.61016C20.9497 1.96428 19.321 0.439405 17.1749 0.130557C16.6831 0.059285 16.5845 0.0381673 14.0609 0.0337677C5.10964 0.0381673 3.14745 -0.360431 1.38147 1.47066Z" fill="url(#paint0_linear_218:302)"/><path d="M10.6187 2.79586C7.42379 2.79586 4.38987 2.51165 3.23104 5.48573C2.75237 6.71408 2.82188 8.30935 2.82188 10.5936C2.82188 12.598 2.75765 14.4819 3.23104 15.7006C4.38723 18.6764 7.44579 18.3913 10.617 18.3913C13.6764 18.3913 16.8309 18.7099 18.0038 15.7006C18.4833 14.4599 18.413 12.8884 18.413 10.5936C18.413 7.54735 18.581 5.58076 17.1037 4.10428C15.6078 2.60843 13.5849 2.79586 10.6152 2.79586H10.6187ZM9.92009 4.20107C16.5845 4.19051 17.4327 3.44963 16.9646 13.7419C16.7983 17.3821 14.0266 16.9826 10.6196 16.9826C4.40747 16.9826 4.22885 16.8049 4.22885 10.5901C4.22885 4.30314 4.7216 4.20459 9.92009 4.19931V4.20107ZM14.7807 5.49541C14.2642 5.49541 13.8454 5.91425 13.8454 6.43075C13.8454 6.94726 14.2642 7.36609 14.7807 7.36609C15.2972 7.36609 15.716 6.94726 15.716 6.43075C15.716 5.91425 15.2972 5.49541 14.7807 5.49541ZM10.6187 6.58913C8.40753 6.58913 6.61516 8.38238 6.61516 10.5936C6.61516 12.8048 8.40753 14.5972 10.6187 14.5972C12.8299 14.5972 14.6214 12.8048 14.6214 10.5936C14.6214 8.38238 12.8299 6.58913 10.6187 6.58913ZM10.6187 7.99435C14.0548 7.99435 14.0592 13.1928 10.6187 13.1928C7.18358 13.1928 7.1783 7.99435 10.6187 7.99435Z" fill="white"/><defs><linearGradient id="paint0_linear_218:302" x1="1.42197" y1="19.8027" x2="21.0487" y2="2.81601" gradientUnits="userSpaceOnUse"><stop stop-color="#FFDD55"/><stop offset="0.5" stop-color="#FF543E"/><stop offset="1" stop-color="#C837AB"/></linearGradient></defs></svg></a></div><div class="instagram-section__slider-block"><svg class="instagram-section__slider-bloob" width="1054" height="1108" viewBox="0 0 1054 1108" fill="none" xmlns="http://www.w3.org/2000/svg"><g filter="url(#filter0_d_218:280)"><path d="M564.376 903.973C602.319 887.211 628.363 848.29 643.5 822.629C648.775 819.882 675.574 796.478 685.702 791.204C698.363 784.612 756.399 733.807 777.677 699.334C798.955 664.861 823.655 579.009 777.594 465.434C740.745 374.574 659.595 293.298 620.696 263.021C611.892 255.128 575.831 233.274 559.54 227.86C535.239 219.786 512.842 217.749 489.609 221.424C466.377 225.099 421.013 238.426 394.9 252.022C368.787 265.619 352.578 273.123 328.382 290.401C304.186 307.678 281.523 327.9 261.086 358.193C240.649 388.485 230.449 417.19 224.614 442.687C218.779 468.183 218.001 497.597 222.688 529.78C227.376 561.963 248.989 591.883 260.204 605.695C271.419 619.507 289.323 632.643 299.821 641.213C310.318 649.784 327.839 662.184 342.194 676.232C356.55 690.28 368.099 708.597 378.708 738.632C389.318 768.667 388.589 794.312 393.4 817.073C398.21 839.834 410.55 857.739 422.149 872.287C433.747 886.835 454.742 903.976 473.128 910.311C491.514 916.646 516.947 924.925 564.376 903.973Z" fill="#EDBA4B"/></g><defs><filter id="filter0_d_218:280" x="0" y="0" width="1053.23" height="1107.24" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB"><feFlood flood-opacity="0" result="BackgroundImageFix"/><feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/><feOffset/><feGaussianBlur stdDeviation="70"/><feColorMatrix type="matrix" values="0 0 0 0 0.929412 0 0 0 0 0.729412 0 0 0 0 0.294118 0 0 0 0.3 0"/><feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_218:280"/><feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_218:280" result="shape"/></filter></defs></svg><div class="instagram-section__slider swiper"><div class="instagram-section__slider-wrapper swiper-wrapper"><div class="instagram-section__slider-item swiper-slide"><img class="instagram-section__slider-img" src="img/slider-img.png"></div><div class="instagram-section__slider-item swiper-slide"><img class="instagram-section__slider-img" src="img/slider-img.png"></div><div class="instagram-section__slider-item swiper-slide"><img class="instagram-section__slider-img" src="img/slider-img.png"></div></div><div class="instagram-section__slider-button instagram-section__slider-button--prev"><svg class="instagram-section__slider-icon"><use xlink:href="img/sprite.svg#arrow-left"></use></svg></div><div class="instagram-section__slider-button instagram-section__slider-button--next"><svg class="instagram-section__slider-icon"><use xlink:href="img/sprite.svg#arrow-right"></use></svg></div></div></div></div></section><section class="about"><div class="about__container container-fluid"><div class="about__image-block"><img src="img/about-img.png" class="about__image"><div class="about__message"><div class="about__message-name">Anna Höglund</div><div class="about__message-text">Luo kimppuja omin käsin</div></div></div><div class="about__text-block"><h2 class="about__title h2-title">Miksi päätimme luoda syötäviä kukkakimppuja?</h2><div class="about__text"><p>Se alkoi silloin kun koko maailman oli pysähtynyt. Kukaan ei pitänyt juhlia, ei lasten synttäreitä, ei ylioppilaskirjoituksia eikä kukaan enää suunnitellut isoja häitä kesäksi.</p><p>Tarina alkoi toivosta ja toiveesta, että tämä ei ole ikuista ja vielä me juhlitaan monissa juhlissa ja näemme iloisia kasvoja, kuulemme naurua ja hauskojen keskustelujen ääniä</p><p>Terveys ja huolenpito ympärillä olevista ihmisistä ovat nousseet esille tärkeinä aiheina koko maailmalla.</p><p>Miten voi yhdistää sekä huolenpitoa että juhlaa samassa tilanteessa?</p><p>Ja silloin se syntyi, idea oppia jotakin uutta ja luoda sekä visuaalista juhlaa että pitää huolta rakkaiden ihmisten terveydestä ja hyvinvoinnista</p></div></div></div></section><section class="question"><div class="question__container container"><h2 class="question__title h2-title">Vastaamme kysymyksiinne</h2><ul class="question__list"><li class="question__item accordion"><button class="accordion__control" aria-expanded="false"><h3 class="accordion__title">1. Onko mahdollisuutta tilata mukautettu kimppu?</h3><svg class="accordion__icon"><use xlink:href="img/sprite.svg#arrow-down"></use></svg></button><div class="accordion__content" aria-hidden="true">Kyllä, kukkakimppujen luettelo sisältää tuotteen "Kerää kimppusi". Voit valita ainesosat itse.</div></li><li class="question__item accordion"><button class="accordion__control" aria-expanded="false"><h3 class="accordion__title">2. Voinko varata kukkakimpun ja maksaa vastaanotettaessa?</h3><svg class="accordion__icon"><use xlink:href="img/sprite.svg#arrow-down"></use></svg></button><div class="accordion__content" aria-hidden="true">Kyllä, kukkakimppujen luettelo sisältää tuotteen "Kerää kimppusi". Voit valita ainesosat itse.</div></li><li class="question__item accordion"><button class="accordion__control" aria-expanded="false"><h3 class="accordion__title">3. Kuinka kauan yhden kimpun valmistamiseen kestää?</h3><svg class="accordion__icon"><use xlink:href="img/sprite.svg#arrow-down"></use></svg></button><div class="accordion__content" aria-hidden="true">Kyllä, kukkakimppujen luettelo sisältää tuotteen "Kerää kimppusi". Voit valita ainesosat itse.</div></li><li class="question__item accordion"><button class="accordion__control" aria-expanded="false"><h3 class="accordion__title">4. Voinko tehdä tilauksen tietylle päivälle?</h3><svg class="accordion__icon"><use xlink:href="img/sprite.svg#arrow-down"></use></svg></button><div class="accordion__content" aria-hidden="true">Kyllä, kukkakimppujen luettelo sisältää tuotteen "Kerää kimppusi". Voit valita ainesosat itse.</div></li><li class="question__item accordion"><button class="accordion__control" aria-expanded="false"><h3 class="accordion__title">5. Kuinka kauan kestää toimitus N kaupunkiin?</h3><svg class="accordion__icon"><use xlink:href="img/sprite.svg#arrow-down"></use></svg></button><div class="accordion__content" aria-hidden="true">Kyllä, kukkakimppujen luettelo sisältää tuotteen "Kerää kimppusi". Voit valita ainesosat itse.</div></li></ul></div></section><section class="form-section"><div class="form-section__container container"><div class="form-section__text-block"><div class="form-section__text"><h2 class="form-section__title h2-title">Jätä yhteystietosi, jos sinulle jäi jotain kysyttävää</h2><div class="form-section__descr"><svg class="form-section__descr-icon" width="28" height="13" viewBox="0 0 28 13" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M0.0351562 0C0.547903 7.26528 6.60424 13 14 13C21.3957 13 27.4521 7.26528 27.9648 0H23.9506C23.4489 5.05332 19.1853 9 14 9C8.81464 9 4.55109 5.05332 4.04937 0H0.0351562Z" fill="url(#paint0_linear_1045:538)"/><defs><linearGradient id="paint0_linear_1045:538" x1="27.9648" y1="13" x2="0.0351554" y2="13" gradientUnits="userSpaceOnUse"><stop stop-color="#EBB949"/><stop offset="1" stop-color="#FECA56"/></linearGradient></defs></svg><div class="form-section__descr-text">Otamme sinuun yhteyttä ja vastaamme kysymyksiisi</div></div></div><div class="form-section__message" aria-hidden="true"><div class="form-section__message-wrapper"><div class="form-section__message-title"><img src="img/hero__message-avatar.jpg" class="form-section__message-avatar"><div class="form-section__message-name">Anna Höglund</div></div><img src="img/form__message-emoji.png" class="form-section__message-emoji"><p class="form-section__message-text">Me autamme kokoamaan juuri teille sopivan tilauksen</p></div></div></div><div class="form-section__form-block"><form action="POST" class="form-section__form"><div class="form-section__input-wrapper"><input class="form-section__input" type="text" name="Name" id="formName" placeholder="Nimi" data-validate-field="name"></div><div class="form-section__input-wrapper"><input class="form-section__input" type="tel" name="Phone" id="formPhone" placeholder="Puhelin" data-validate-field="phone"></div><button type="submit" class="form-section__button button">Pyydä puhelua</button></form></div></div></section><footer class="footer"><div class="footer__container container"><div class="footer__info"><a href="/" class="footer__logo logo">namikimppu</a><ul class="footer__menu-list menu"><li class="menu__item"><a href="#" class="menu__link">Katalogi</a></li><li class="menu__item"><a href="#" class="menu__link">Miten tehdä tilaus</a></li><li class="menu__item"><a href="#" class="menu__link">Meistä</a></li><li class="menu__item"><a href="#" class="menu__link">Yleisiä kysymyksiä</a></li><li class="menu__item"><a href="#" class="menu__link">Palautteet</a></li></ul><a href="tel:+1234567890" class="footer__phone phone"><svg class="phone__icon" width="19" height="20" viewBox="0 0 19 20" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M17.4754 13.4689C16.3122 13.4689 15.17 13.2869 14.0877 12.9293C13.5573 12.7484 12.9053 12.9143 12.5816 13.2468L10.4453 14.8595C7.96768 13.537 6.44154 12.0113 5.13708 9.55236L6.70235 7.47166C7.10902 7.06554 7.25488 6.47228 7.08012 5.91564C6.7209 4.82759 6.53842 3.68596 6.53842 2.52221C6.53847 1.68151 5.85452 0.997559 5.01387 0.997559H1.5246C0.683951 0.997559 0 1.68151 0 2.52216C0 12.1582 7.83938 19.9976 17.4754 19.9976C18.3161 19.9976 19 19.3136 19 18.473V14.9934C19 14.1528 18.316 13.4689 17.4754 13.4689Z" fill="url(#paint0_linear_218:388)"/><defs><linearGradient id="paint0_linear_218:388" x1="19" y1="19.9976" x2="-5.63718e-07" y2="19.9976" gradientUnits="userSpaceOnUse"><stop stop-color="#EBB949"/><stop offset="1" stop-color="#FECA56"/></linearGradient></defs></svg> +358 40 717 4888</a></div><div class="footer__under"><a href="#" class="footer__copyright">© Copyright Namikimppu 2021. All Rights reserved.</a><div class="footer__author-wrapper"><a href="#" class="footer__author">Design by - Kokorina Diana</a> <a href="#" class="footer__author">Developed by - Timofey Krivenkov</a></div></div></div></footer></div><script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script><script src="js/vendor.js"></script><script src="js/main.js"></script></body></html>
+<!DOCTYPE html>
+<html lang="fi">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="theme-color" content="#111111">
+  <title>New site</title>
+  <link rel="stylesheet" href="css/vendor.css">
+  <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+  <div class="site-container">
+    <section class="hero-wrapper">
+      <header class="header">
+  <div class="header__container container">
+    <button class="header__mobile-button burger">
+      <span class="burger__line"></span>
+    </button>
+    <a href="/" class="header__logo logo">namikimppu</a>
+    <div class="header__menu">
+      <ul class="header__menu-list menu">
+        <li class="menu__item"><a href="#" class="menu__link">Katalogi</a></li>
+        <li class="menu__item"><a href="#" class="menu__link">Miten tehdä tilaus</a></li>
+        <li class="menu__item"><a href="#" class="menu__link">Meistä</a></li>
+        <li class="menu__item"><a href="#" class="menu__link">Yleisiä kysymyksiä</a></li>
+        <li class="menu__item"><a href="#" class="menu__link">Palautteet</a></li>
+      </ul>
+      <div class="header__contacts">
+        <a href="tel:+1234567890" class="header__phone phone">
+          <svg class="phone__icon">
+            <use xlink:href="img/sprite.svg#phone-icon">
+          </svg>
+          +358 40 717 4888
+        </a>
+
+        <a href="#" class="header__insta instagram">
+          <svg viewBox="0 0 30 31" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path class="instagram__icon"
+              d="M1.95689 2.08325C-0.393836 4.52496 0.0872779 7.11874 0.0872779 14.9985C0.0872779 21.5422 -1.05443 28.102 4.92085 29.6463C6.78672 30.1262 23.3191 30.1262 25.1825 29.6438C27.6703 29.0019 29.6945 26.984 29.9712 23.4654C30.0098 22.9743 30.0098 7.03149 29.9699 6.53043C29.6758 2.78248 27.3687 0.622458 24.3287 0.184968C23.6319 0.0840091 23.4923 0.0540953 19.9176 0.0478633C7.23792 0.0540953 4.45843 -0.510528 1.95689 2.08325Z"
+              />
+            <path
+              d="M15.0406 3.96031C10.5149 3.96031 6.2173 3.55772 4.57578 7.77058C3.89773 9.51056 3.9962 11.7703 3.9962 15.006C3.9962 17.8453 3.90521 20.5139 4.57578 22.2401C6.21356 26.4555 10.5461 26.0517 15.0381 26.0517C19.3719 26.0517 23.8403 26.5028 25.5017 22.2401C26.181 20.4827 26.0813 18.2566 26.0813 15.006C26.0813 10.6909 26.3194 7.90519 24.2267 5.81371C22.1078 3.69482 19.2423 3.96031 15.0356 3.96031H15.0406ZM14.051 5.95082C23.4913 5.93586 24.6928 4.88639 24.0297 19.4656C23.7941 24.622 19.868 24.0561 15.0419 24.0561C6.24223 24.0561 5.98921 23.8044 5.98921 15.001C5.98921 6.0954 6.68719 5.95581 14.051 5.94833V5.95082ZM20.9361 7.78429C20.2045 7.78429 19.6112 8.37758 19.6112 9.10922C19.6112 9.84086 20.2045 10.4342 20.9361 10.4342C21.6678 10.4342 22.2611 9.84086 22.2611 9.10922C22.2611 8.37758 21.6678 7.78429 20.9361 7.78429ZM15.0406 9.33357C11.9084 9.33357 9.36947 11.8738 9.36947 15.006C9.36947 18.1382 11.9084 20.6771 15.0406 20.6771C18.1728 20.6771 20.7105 18.1382 20.7105 15.006C20.7105 11.8738 18.1728 9.33357 15.0406 9.33357ZM15.0406 11.3241C19.9078 11.3241 19.9141 18.6879 15.0406 18.6879C10.1746 18.6879 10.1672 11.3241 15.0406 11.3241Z"
+              fill="white" />
+            <defs>
+              <linearGradient id="insta" x1="30" y1="30.0059" x2="-8.90078e-07" y2="30.0059" gradientUnits="userSpaceOnUse">
+                <stop stop-color="#EBB949" />
+                <stop offset="1" stop-color="#FECA56" />
+              </linearGradient>
+            </defs>
+          </svg>
+        </a>
+      </div>
+    </div>
+    <a href="#" class="header__cart cart">
+      <svg viewBox="0 0 58 58" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <circle class="header__cart-back" cx="29" cy="29" r="29"/>
+        <path
+          d="M42.0832 23.3273C41.9507 23.197 41.7654 23.1353 41.5811 23.1599H34.3847V19.9801C34.3847 16.8375 31.8371 14.2899 28.6945 14.2899C25.5519 14.2899 23.0043 16.8375 23.0043 19.9801V23.1599H15.8078C15.6069 23.1599 15.4061 23.1599 15.3057 23.3273C15.1707 23.457 15.1081 23.6447 15.1383 23.8294L17.6487 37.5529C17.9994 39.4673 19.6524 40.8681 21.5984 40.9001H35.7905C37.742 40.8521 39.3916 39.4402 39.7402 37.5194L42.2506 23.8294C42.2808 23.6447 42.2182 23.457 42.0832 23.3273ZM24.3431 19.9801C24.3431 17.5769 26.2913 15.6288 28.6944 15.6288C31.0976 15.6288 33.0458 17.5769 33.0458 19.9801V23.1599H24.3431V19.9801ZM38.4013 37.352C38.1758 38.6206 37.0789 39.5488 35.7905 39.5612H21.5984C20.31 39.5488 19.2131 38.6207 18.9876 37.352L16.6111 24.4988H40.7778L38.4013 37.352Z"
+          fill="#474132" />
+        <circle cx="36.9859" cy="38.3783" r="4.54348" fill="url(#gradient2)" stroke="#F8F3E6" />
+        <defs>
+          <linearGradient id="gradient2" x1="42.0293" y1="43.4218" x2="31.9424" y2="43.4218"
+            gradientUnits="userSpaceOnUse">
+            <stop stop-color="#EBB949" />
+            <stop offset="1" stop-color="#FECA56" />
+          </linearGradient>
+        </defs>
+      </svg>
+    </a>
+  </div>
+</header>
+
+      <section class="hero">
+  <div class="hero__container container">
+    <div class="hero__descr">
+      <h1 class="hero__title">Syötävä kimppu on paras ratkaisu kaikkiin juhliin</h1>
+      <div class="hero__adv">
+        <div class="hero__adv-item icon-block">
+          <svg class="icon-block__icon" width="28" height="13" viewBox="0 0 28 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path fill-rule="evenodd" clip-rule="evenodd" d="M0.0351562 0C0.547903 7.26528 6.60424 13 14 13C21.3957 13 27.4521 7.26528 27.9648 0H23.9506C23.4489 5.05332 19.1853 9 14 9C8.81464 9 4.55109 5.05332 4.04937 0H0.0351562Z" fill="url(#paint0_linear_1045:538)"/>
+            <defs>
+            <linearGradient id="paint0_linear_1045:538" x1="27.9648" y1="13" x2="0.0351554" y2="13" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#EBB949"/>
+            <stop offset="1" stop-color="#FECA56"/>
+            </linearGradient>
+            </defs>
+            </svg>
+          <div class="icon-block__text">
+            <span>Yleinen lahja</span> kaikkiin tilanteisiin
+          </div>
+        </div>
+        <div class="hero__adv-item icon-block">
+          <svg class="icon-block__icon" width="28" height="13" viewBox="0 0 28 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path fill-rule="evenodd" clip-rule="evenodd" d="M0.0351562 0C0.547903 7.26528 6.60424 13 14 13C21.3957 13 27.4521 7.26528 27.9648 0H23.9506C23.4489 5.05332 19.1853 9 14 9C8.81464 9 4.55109 5.05332 4.04937 0H0.0351562Z" fill="url(#paint0_linear_1045:538)"/>
+            <defs>
+            <linearGradient id="paint0_linear_1045:538" x1="27.9648" y1="13" x2="0.0351554" y2="13" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#EBB949"/>
+            <stop offset="1" stop-color="#FECA56"/>
+            </linearGradient>
+            </defs>
+            </svg>
+          <div class="icon-block__text">
+            Paras <span>tapa säästää</span> aikaa lahjaa valittaessa
+          </div>
+        </div>
+      </div>
+      <button class="hero__button button">Valitse kimppu</button>
+    </div>
+    <div class="hero__image-block">
+      <picture>
+        <source srcset="img/hero-img-mobile.png" media="(max-width: 840px)">
+        <img class="hero__image" src="img/hero-img.png" alt="">
+      </picture>
+      <div class="hero__message" aria-hidden="true">
+        <div class="hero__message-wrapper">
+          <div class="hero__message-title">
+            <img src="img/hero__message-avatar.jpg" class="hero__message-avatar">
+            <div class="hero__message-name">Anna Höglund</div>
+          </div>
+          <img src="img/hero__message-emoji.png" class="hero__message-emoji">
+          <p class="hero__message-text">Syötävä kimppu on <span>erinomainen vaihtoehto</span> kukkakimpulle</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+    </section>
+    <section class="catalog">
+  <div class="catalog__container container">
+    <h2 class="catalog__title h2-title">Kimppu luettelo</h2>
+    <ul class="catalog__label-list">
+      <li class="catalog__category-item"><div class="catalog__label catalog__label--active" data-filter=".makeasta">Makeasta</div></li>
+      <li class="catalog__category-item"><div class="catalog__label" data-filter=".hedelmistä">Hedelmistä</div></li>
+      <li class="catalog__category-item"><div class="catalog__label" data-filter=".vihanneksista">Vihanneksista</div></li>
+      <li class="catalog__category-item"><div class="catalog__label" data-filter=".lomalle">Lomalle</div></li>
+      <li class="catalog__category-item"><div class="catalog__label" data-filter=".namikuppi">Namikuppi</div></li>
+      <li class="catalog__category-item"><div class="catalog__label" data-filter=".lapsille">Lapsille</div></li>
+      <li class="catalog__category-item"><div class="catalog__label" data-filter=".muut">Muut</div></li>
+      <li class="catalog__category-item"><div class="catalog__label" data-filter=".lisää">Lisää</div></li>
+    </ul>
+    <div class="catalog__wrapper grid">
+      <div href="#" class="catalog__item card makeasta">
+        <a href="#" class="card__page-link">
+          <img src="img/card-img.jpg" class="card__image">
+        </a>
+        <div class="card__info">
+          <div class="card__title">Nimi Suklaaunelma</div>
+          <p class="card__descr">Sisältö: Ferrero rocher, Susu, Vohvelipala, Suklaakonvehti</p>
+          <div class="card__price">alkaen 30€</div>
+          <button href="#" class="card__button button">Valitse</button>
+        </div>
+      </div>
+      <div href="#" class="catalog__item card makeasta">
+        <a href="#" class="card__page-link">
+          <img src="img/card-img.jpg" class="card__image">
+        </a>
+        <div class="card__info">
+          <div class="card__title">Nimi Suklaaunelma</div>
+          <p class="card__descr">Sisältö: Ferrero rocher, Susu, Vohvelipala, Suklaakonvehti</p>
+          <div class="card__price">alkaen 30€</div>
+          <button href="#" class="card__button button">Valitse</button>
+        </div>
+      </div>
+      <div href="#" class="catalog__item card makeasta">
+        <a href="#" class="card__page-link">
+          <img src="img/card-img.jpg" class="card__image">
+        </a>
+        <div class="card__info">
+          <div class="card__title">Nimi Suklaaunelma</div>
+          <p class="card__descr">Sisältö: Ferrero rocher, Susu, Vohvelipala, Suklaakonvehti</p>
+          <div class="card__price">alkaen 30€</div>
+          <button href="#" class="card__button button">Valitse</button>
+        </div>
+      </div>
+      <div href="#" class="catalog__item card makeasta">
+        <a href="#" class="card__page-link">
+          <img src="img/card-img.jpg" class="card__image">
+        </a>
+        <div class="card__info">
+          <div class="card__title">Nimi Suklaaunelma</div>
+          <p class="card__descr">Sisältö: Ferrero rocher, Susu, Vohvelipala, Suklaakonvehti</p>
+          <div class="card__price">alkaen 30€</div>
+          <button href="#" class="card__button button">Valitse</button>
+        </div>
+      </div>
+      <div href="#" class="catalog__item card makeasta">
+        <a href="#" class="card__page-link">
+          <img src="img/card-img.jpg" class="card__image">
+        </a>
+        <div class="card__info">
+          <div class="card__title">Nimi Suklaaunelma</div>
+          <p class="card__descr">Sisältö: Ferrero rocher, Susu, Vohvelipala, Suklaakonvehti</p>
+          <div class="card__price">alkaen 30€</div>
+          <button href="#" class="card__button button">Valitse</button>
+        </div>
+      </div>
+      <div href="#" class="catalog__item card makeasta">
+        <a href="#" class="card__page-link">
+          <img src="img/card-img.jpg" class="card__image">
+        </a>
+        <div class="card__info">
+          <div class="card__title">Nimi Suklaaunelma</div>
+          <p class="card__descr">Sisältö: Ferrero rocher, Susu, Vohvelipala, Suklaakonvehti</p>
+          <div class="card__price">alkaen 30€</div>
+          <button href="#" class="card__button button">Valitse</button>
+        </div>
+      </div>
+      <div href="#" class="catalog__item card makeasta">
+        <a href="#" class="card__page-link">
+          <img src="img/card-img.jpg" class="card__image">
+        </a>
+        <div class="card__info">
+          <div class="card__title">Nimi Suklaaunelma</div>
+          <p class="card__descr">Sisältö: Ferrero rocher, Susu, Vohvelipala, Suklaakonvehti</p>
+          <div class="card__price">alkaen 30€</div>
+          <button href="#" class="card__button button">Valitse</button>
+        </div>
+      </div>
+      <div href="#" class="catalog__item card makeasta">
+        <a href="#" class="card__page-link">
+          <img src="img/card-img.jpg" class="card__image">
+        </a>
+        <div class="card__info">
+          <div class="card__title">Nimi Suklaaunelma</div>
+          <p class="card__descr">Sisältö: Ferrero rocher, Susu, Vohvelipala, Suklaakonvehti</p>
+          <div class="card__price">alkaen 30€</div>
+          <button href="#" class="card__button button">Valitse</button>
+        </div>
+      </div>
+      <div href="#" class="catalog__item card makeasta">
+        <a href="#" class="card__page-link">
+          <img src="img/card-img.jpg" class="card__image">
+        </a>
+        <div class="card__info">
+          <div class="card__title">Nimi Suklaaunelma</div>
+          <p class="card__descr">Sisältö: Ferrero rocher, Susu, Vohvelipala, Suklaakonvehti</p>
+          <div class="card__price">alkaen 30€</div>
+          <button href="#" class="card__button button">Valitse</button>
+        </div>
+      </div>
+      <div href="#" class="catalog__item card hedelmistä">
+        <a href="#" class="card__page-link">
+          <img src="img/card-img.jpg" class="card__image">
+        </a>
+        <div class="card__info">
+          <div class="card__title">Nimi Suklaaunelma 1</div>
+          <p class="card__descr">Sisältö: Ferrero rocher, Susu, Vohvelipala, Suklaakonvehti</p>
+          <div class="card__price">alkaen 30€</div>
+          <button href="#" class="card__button button">Valitse</button>
+        </div>
+      </div>
+      <div href="#" class="catalog__item card hedelmistä">
+        <a href="#" class="card__page-link">
+          <img src="img/card-img.jpg" class="card__image">
+        </a>
+        <div class="card__info">
+          <div class="card__title">Nimi Suklaaunelma 1</div>
+          <p class="card__descr">Sisältö: Ferrero rocher, Susu, Vohvelipala, Suklaakonvehti</p>
+          <div class="card__price">alkaen 30€</div>
+          <button href="#" class="card__button button">Valitse</button>
+        </div>
+      </div>
+      <div href="#" class="catalog__item card hedelmistä">
+        <a href="#" class="card__page-link">
+          <img src="img/card-img.jpg" class="card__image">
+        </a>
+        <div class="card__info">
+          <div class="card__title">Nimi Suklaaunelma 1</div>
+          <p class="card__descr">Sisältö: Ferrero rocher, Susu, Vohvelipala, Suklaakonvehti</p>
+          <div class="card__price">alkaen 30€</div>
+          <button href="#" class="card__button button">Valitse</button>
+        </div>
+      </div>
+      <div href="#" class="catalog__item card constructor">
+        <a href="#" class="card__page-link">
+          <img src="img/card-img.jpg" class="card__image">
+        </a>
+        <div class="card__info">
+          <div class="card__title">Nimi Suklaaunelma 2</div>
+          <p class="card__descr">Sisältö: Ferrero rocher, Susu, Vohvelipala, Suklaakonvehti</p>
+          <div class="card__price">alkaen 30€</div>
+          <button href="#" class="card__button button">Valitse</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+    <section class="steps">
+  <div class="steps__container container">
+    <h2 class="steps__title h2-title">Tee tilauksesi verkkosivustomme kautta</h2>
+    <div class="steps__wrapper">
+      <div class="steps__item step-item step-item--first">
+        <span class="step-item__counter">Vaihe 1</span>
+        <h3 class="step-item__title">Valitse kimppu</h3>
+        <p class="step-item__descr">Tee tilauksesi siirtymällä ostoskoriin. Syötä yhteystietosi oikein, jotta voimme olla sinuun yhteydessä.</p>
+      </div>
+      <div class="steps__item step-item step-item--second">
+        <span class="step-item__counter">Vaihe 2</span>
+        <h3 class="step-item__title">Maksa</h3>
+        <p class="step-item__descr">Tee 100% ennakkomaksu kimpusta. Hyväksymme: Visa / MasterCard / PayPal</p>
+      </div>
+      <div class="steps__item step-item step-item--third">
+        <span class="step-item__counter">Vaihe 3</span>
+        <h3 class="step-item__title">Odota toimitusta tai nouda se itse</h3>
+        <p class="step-item__descr">Teemme yhteistyötä DHL-toimitusten kanssa. Tai voitte noutaa kukkakimpun itse osoitteesta.</p>
+        <a href="#" class="step-item__link">Lue lisää toimituksesta</a>
+      </div>
+    </div>
+  </div>
+</section>
+    <section class="instagram-section">
+  <div class="instagram-section__container container">
+    <div class="instagram-section__text">
+      <h2 class="instagram-section__title h2-title">Yli 50 ihmistä on jo tilannut syötävän kimpun meiltä</h2>
+      <div class="instagram-section__descr">
+        <svg class="instagram-section__descr-icon" width="28" height="13" viewBox="0 0 28 13" fill="none"
+          xmlns="http://www.w3.org/2000/svg">
+          <path fill-rule="evenodd" clip-rule="evenodd"
+            d="M0.0351562 0C0.547903 7.26528 6.60424 13 14 13C21.3957 13 27.4521 7.26528 27.9648 0H23.9506C23.4489 5.05332 19.1853 9 14 9C8.81464 9 4.55109 5.05332 4.04937 0H0.0351562Z"
+            fill="url(#paint0_linear_1045:538)" />
+          <defs>
+            <linearGradient id="paint0_linear_1045:538" x1="27.9648" y1="13" x2="0.0351554" y2="13"
+              gradientUnits="userSpaceOnUse">
+              <stop stop-color="#EBB949" />
+              <stop offset="1" stop-color="#FECA56" />
+            </linearGradient>
+          </defs>
+        </svg>
+        <div class="instagram-section__descr-block">
+          Voitte tutustua meidän asiakkaiden palautteeseen ja mielipiteisiin, joita saamme koko ajan meidän
+          Instagramiin. Voitte seurata meitä sieltä ja laittaa kommentteja
+        </div>
+      </div>
+      <a href="#" class="instagram-section__link">
+        <span class="instagram-section__link-text">Instagram</span>
+        <svg class="instagram-section__link-icon" width="22" height="22" viewBox="0 0 22 22" fill="none"
+          xmlns="http://www.w3.org/2000/svg">
+          <path
+            d="M1.38147 1.47066C-0.27803 3.19439 0.0616142 5.02548 0.0616142 10.5883C0.0616142 15.2078 -0.744381 19.8387 3.47389 20.9289C4.79111 21.2677 16.4622 21.2677 17.7777 20.9272C19.534 20.474 20.9629 19.0494 21.1583 16.5655C21.1855 16.2188 21.1855 4.96389 21.1574 4.61016C20.9497 1.96428 19.321 0.439405 17.1749 0.130557C16.6831 0.059285 16.5845 0.0381673 14.0609 0.0337677C5.10964 0.0381673 3.14745 -0.360431 1.38147 1.47066Z"
+            fill="url(#paint0_linear_218:302)" />
+          <path
+            d="M10.6187 2.79586C7.42379 2.79586 4.38987 2.51165 3.23104 5.48573C2.75237 6.71408 2.82188 8.30935 2.82188 10.5936C2.82188 12.598 2.75765 14.4819 3.23104 15.7006C4.38723 18.6764 7.44579 18.3913 10.617 18.3913C13.6764 18.3913 16.8309 18.7099 18.0038 15.7006C18.4833 14.4599 18.413 12.8884 18.413 10.5936C18.413 7.54735 18.581 5.58076 17.1037 4.10428C15.6078 2.60843 13.5849 2.79586 10.6152 2.79586H10.6187ZM9.92009 4.20107C16.5845 4.19051 17.4327 3.44963 16.9646 13.7419C16.7983 17.3821 14.0266 16.9826 10.6196 16.9826C4.40747 16.9826 4.22885 16.8049 4.22885 10.5901C4.22885 4.30314 4.7216 4.20459 9.92009 4.19931V4.20107ZM14.7807 5.49541C14.2642 5.49541 13.8454 5.91425 13.8454 6.43075C13.8454 6.94726 14.2642 7.36609 14.7807 7.36609C15.2972 7.36609 15.716 6.94726 15.716 6.43075C15.716 5.91425 15.2972 5.49541 14.7807 5.49541ZM10.6187 6.58913C8.40753 6.58913 6.61516 8.38238 6.61516 10.5936C6.61516 12.8048 8.40753 14.5972 10.6187 14.5972C12.8299 14.5972 14.6214 12.8048 14.6214 10.5936C14.6214 8.38238 12.8299 6.58913 10.6187 6.58913ZM10.6187 7.99435C14.0548 7.99435 14.0592 13.1928 10.6187 13.1928C7.18358 13.1928 7.1783 7.99435 10.6187 7.99435Z"
+            fill="white" />
+          <defs>
+            <linearGradient id="paint0_linear_218:302" x1="1.42197" y1="19.8027" x2="21.0487" y2="2.81601"
+              gradientUnits="userSpaceOnUse">
+              <stop stop-color="#FFDD55" />
+              <stop offset="0.5" stop-color="#FF543E" />
+              <stop offset="1" stop-color="#C837AB" />
+            </linearGradient>
+          </defs>
+        </svg>
+      </a>
+    </div>
+    <div class="instagram-section__slider-block">
+      <svg class="instagram-section__slider-bloob" width="1054" height="1108" viewBox="0 0 1054 1108" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <g filter="url(#filter0_d_218:280)">
+          <path
+            d="M564.376 903.973C602.319 887.211 628.363 848.29 643.5 822.629C648.775 819.882 675.574 796.478 685.702 791.204C698.363 784.612 756.399 733.807 777.677 699.334C798.955 664.861 823.655 579.009 777.594 465.434C740.745 374.574 659.595 293.298 620.696 263.021C611.892 255.128 575.831 233.274 559.54 227.86C535.239 219.786 512.842 217.749 489.609 221.424C466.377 225.099 421.013 238.426 394.9 252.022C368.787 265.619 352.578 273.123 328.382 290.401C304.186 307.678 281.523 327.9 261.086 358.193C240.649 388.485 230.449 417.19 224.614 442.687C218.779 468.183 218.001 497.597 222.688 529.78C227.376 561.963 248.989 591.883 260.204 605.695C271.419 619.507 289.323 632.643 299.821 641.213C310.318 649.784 327.839 662.184 342.194 676.232C356.55 690.28 368.099 708.597 378.708 738.632C389.318 768.667 388.589 794.312 393.4 817.073C398.21 839.834 410.55 857.739 422.149 872.287C433.747 886.835 454.742 903.976 473.128 910.311C491.514 916.646 516.947 924.925 564.376 903.973Z"
+            fill="#EDBA4B" />
+        </g>
+        <defs>
+          <filter id="filter0_d_218:280" x="0" y="0" width="1053.23" height="1107.24" filterUnits="userSpaceOnUse"
+            color-interpolation-filters="sRGB">
+            <feFlood flood-opacity="0" result="BackgroundImageFix" />
+            <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
+              result="hardAlpha" />
+            <feOffset />
+            <feGaussianBlur stdDeviation="70" />
+            <feColorMatrix type="matrix" values="0 0 0 0 0.929412 0 0 0 0 0.729412 0 0 0 0 0.294118 0 0 0 0.3 0" />
+            <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_218:280" />
+            <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_218:280" result="shape" />
+          </filter>
+        </defs>
+      </svg>
+      <div class="instagram-section__slider swiper">
+        <div class="instagram-section__slider-wrapper swiper-wrapper">
+          <div class="instagram-section__slider-item swiper-slide">
+            <img class="instagram-section__slider-img" src="img/slider-img.png">
+          </div>
+          <div class="instagram-section__slider-item swiper-slide">
+            <img class="instagram-section__slider-img" src="img/slider-img.png">
+          </div>
+          <div class="instagram-section__slider-item swiper-slide">
+            <img class="instagram-section__slider-img" src="img/slider-img.png">
+          </div>
+        </div>
+        <div class="instagram-section__slider-button instagram-section__slider-button--prev">
+          <svg class="instagram-section__slider-icon">
+            <use xlink:href="img/sprite.svg#arrow-left">
+          </svg>
+        </div>
+        <div class="instagram-section__slider-button instagram-section__slider-button--next">
+          <svg class="instagram-section__slider-icon">
+            <use xlink:href="img/sprite.svg#arrow-right">
+          </svg>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+    <section class="about">
+  <div class="about__container container-fluid">
+    <div class="about__image-block">
+    <img src="img/about-img.png" class="about__image">
+      <div class="about__message">
+        <div class="about__message-name">Anna Höglund</div>
+        <div class="about__message-text">Luo kimppuja omin käsin</div>
+      </div>
+    </div>
+    <div class="about__text-block">
+      <h2 class="about__title h2-title">Miksi päätimme luoda syötäviä kukkakimppuja?</h2>
+      <div class="about__text">
+        <p>Se alkoi silloin kun koko maailman oli pysähtynyt. Kukaan ei pitänyt juhlia, ei lasten synttäreitä, ei ylioppilaskirjoituksia eikä kukaan enää suunnitellut isoja häitä kesäksi.</p>
+        <p>Tarina alkoi toivosta ja toiveesta, että tämä ei ole ikuista ja vielä me juhlitaan monissa juhlissa ja näemme iloisia kasvoja, kuulemme naurua ja hauskojen keskustelujen ääniä</p>
+        <p>Terveys ja huolenpito ympärillä olevista ihmisistä ovat nousseet esille tärkeinä aiheina koko maailmalla.</p>
+        <p>Miten voi yhdistää sekä huolenpitoa että juhlaa samassa tilanteessa?</p>
+        <p>Ja silloin se syntyi, idea oppia jotakin uutta ja luoda sekä visuaalista juhlaa että pitää huolta rakkaiden ihmisten terveydestä ja hyvinvoinnista</p>
+      </div>
+    </div>
+  </div>
+</section>
+    <section class="question">
+  <div class="question__container container">
+    <h2 class="question__title h2-title">Vastaamme kysymyksiinne</h2>
+    <ul class="question__list">
+      <li class="question__item accordion">
+        <button class="accordion__control" aria-expanded="false">
+          <h3 class="accordion__title">1. Onko mahdollisuutta tilata mukautettu kimppu?</h3>
+          <svg class="accordion__icon">
+            <use xlink:href="img/sprite.svg#arrow-down">
+          </svg>
+        </button>
+        <div class="accordion__content" aria-hidden="true">
+          Kyllä, kukkakimppujen luettelo sisältää tuotteen "Kerää kimppusi". Voit valita ainesosat itse.
+        </div>
+      </li>
+      <li class="question__item accordion">
+        <button class="accordion__control" aria-expanded="false">
+          <h3 class="accordion__title">2. Voinko varata kukkakimpun ja maksaa vastaanotettaessa?</h3>
+          <svg class="accordion__icon">
+            <use xlink:href="img/sprite.svg#arrow-down">
+          </svg>
+        </button>
+        <div class="accordion__content" aria-hidden="true">
+          Kyllä, kukkakimppujen luettelo sisältää tuotteen "Kerää kimppusi". Voit valita ainesosat itse.
+        </div>
+      </li>
+      <li class="question__item accordion">
+        <button class="accordion__control" aria-expanded="false">
+          <h3 class="accordion__title">3. Kuinka kauan yhden kimpun valmistamiseen kestää?</h3>
+          <svg class="accordion__icon">
+            <use xlink:href="img/sprite.svg#arrow-down">
+          </svg>
+        </button>
+        <div class="accordion__content" aria-hidden="true">
+          Kyllä, kukkakimppujen luettelo sisältää tuotteen "Kerää kimppusi". Voit valita ainesosat itse.
+        </div>
+      </li>
+      <li class="question__item accordion">
+        <button class="accordion__control" aria-expanded="false">
+          <h3 class="accordion__title">4. Voinko tehdä tilauksen tietylle päivälle?</h3>
+          <svg class="accordion__icon">
+            <use xlink:href="img/sprite.svg#arrow-down">
+          </svg>
+        </button>
+        <div class="accordion__content" aria-hidden="true">
+          Kyllä, kukkakimppujen luettelo sisältää tuotteen "Kerää kimppusi". Voit valita ainesosat itse.
+        </div>
+      </li>
+      <li class="question__item accordion">
+        <button class="accordion__control" aria-expanded="false">
+          <h3 class="accordion__title">5. Kuinka kauan kestää toimitus N kaupunkiin?</h3>
+          <svg class="accordion__icon">
+            <use xlink:href="img/sprite.svg#arrow-down">
+          </svg>
+        </button>
+        <div class="accordion__content" aria-hidden="true">
+          Kyllä, kukkakimppujen luettelo sisältää tuotteen "Kerää kimppusi". Voit valita ainesosat itse.
+        </div>
+      </li>
+    </ul>
+  </div>
+</section>
+    <section class="form-section">
+  <div class="form-section__container container">
+    <div class="form-section__text-block">
+      <div class="form-section__text">
+        <h2 class="form-section__title h2-title">Jätä yhteystietosi, jos sinulle jäi jotain kysyttävää</h2>
+        <div class="form-section__descr">
+          <svg class="form-section__descr-icon" width="28" height="13" viewBox="0 0 28 13" fill="none"
+            xmlns="http://www.w3.org/2000/svg">
+            <path fill-rule="evenodd" clip-rule="evenodd"
+              d="M0.0351562 0C0.547903 7.26528 6.60424 13 14 13C21.3957 13 27.4521 7.26528 27.9648 0H23.9506C23.4489 5.05332 19.1853 9 14 9C8.81464 9 4.55109 5.05332 4.04937 0H0.0351562Z"
+              fill="url(#paint0_linear_1045:538)" />
+            <defs>
+              <linearGradient id="paint0_linear_1045:538" x1="27.9648" y1="13" x2="0.0351554" y2="13"
+                gradientUnits="userSpaceOnUse">
+                <stop stop-color="#EBB949" />
+                <stop offset="1" stop-color="#FECA56" />
+              </linearGradient>
+            </defs>
+          </svg>
+          <div class="form-section__descr-text">
+            Otamme sinuun yhteyttä ja vastaamme kysymyksiisi
+          </div>
+        </div>
+      </div>
+      <div class="form-section__message" aria-hidden="true">
+        <div class="form-section__message-wrapper">
+          <div class="form-section__message-title">
+            <img src="img/hero__message-avatar.jpg" class="form-section__message-avatar">
+            <div class="form-section__message-name">Anna Höglund</div>
+          </div>
+          <img src="img/form__message-emoji.png" class="form-section__message-emoji">
+          <p class="form-section__message-text">Me autamme kokoamaan juuri teille sopivan tilauksen</p>
+        </div>
+      </div>
+    </div>
+    <div class="form-section__form-block">
+      <form action="POST" class="form-section__form">
+        <div class="form-section__input-wrapper">
+          <input class="form-section__input" type="text" name="Name" id="formName" placeholder="Nimi" data-validate-field="name">
+        </div>
+        <div class="form-section__input-wrapper">
+          <input class="form-section__input" type="tel" name="Phone" id="formPhone" placeholder="Puhelin" data-validate-field="phone">
+        </div>
+        <button type="submit" class="form-section__button button">Pyydä puhelua</button>
+      </form>
+    </div>
+  </div>
+</section>
+    <footer class="footer">
+  <div class="footer__container container">
+    <div class="footer__info">
+      <a href="/" class="footer__logo logo">namikimppu</a>
+      <ul class="footer__menu-list menu">
+        <li class="menu__item"><a href="#" class="menu__link">Katalogi</a></li>
+        <li class="menu__item"><a href="#" class="menu__link">Miten tehdä tilaus</a></li>
+        <li class="menu__item"><a href="#" class="menu__link">Meistä</a></li>
+        <li class="menu__item"><a href="#" class="menu__link">Yleisiä kysymyksiä</a></li>
+        <li class="menu__item"><a href="#" class="menu__link">Palautteet</a></li>
+      </ul>
+      <a href="tel:+1234567890" class="footer__phone phone">
+        <svg class="phone__icon" width="19" height="20" viewBox="0 0 19 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M17.4754 13.4689C16.3122 13.4689 15.17 13.2869 14.0877 12.9293C13.5573 12.7484 12.9053 12.9143 12.5816 13.2468L10.4453 14.8595C7.96768 13.537 6.44154 12.0113 5.13708 9.55236L6.70235 7.47166C7.10902 7.06554 7.25488 6.47228 7.08012 5.91564C6.7209 4.82759 6.53842 3.68596 6.53842 2.52221C6.53847 1.68151 5.85452 0.997559 5.01387 0.997559H1.5246C0.683951 0.997559 0 1.68151 0 2.52216C0 12.1582 7.83938 19.9976 17.4754 19.9976C18.3161 19.9976 19 19.3136 19 18.473V14.9934C19 14.1528 18.316 13.4689 17.4754 13.4689Z" fill="url(#paint0_linear_218:388)"/>
+          <defs>
+          <linearGradient id="paint0_linear_218:388" x1="19" y1="19.9976" x2="-5.63718e-07" y2="19.9976" gradientUnits="userSpaceOnUse">
+          <stop stop-color="#EBB949"/>
+          <stop offset="1" stop-color="#FECA56"/>
+          </linearGradient>
+          </defs>
+          </svg>
+        +358 40 717 4888
+      </a>
+    </div>
+    <div class="footer__under">
+      <a href="#" class="footer__copyright">© Copyright Namikimppu 2021. All Rights reserved.</a>
+      <div class="footer__author-wrapper">
+        <a href="#" class="footer__author">Design by - Kokorina Diana</a>
+        <a href="#" class="footer__author">Developed by - Timofey Krivenkov</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+    
+  </div>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+  <script src="js/vendor.js"></script>
+  <script src="js/main.js"></script>
+</body>
+
+</html>
