@@ -1,0 +1,16 @@
+@import "vars";
+@import "mixins";
+@import "fonts";
+@import "settings";
+
+// мелкие компоненты
+@import "./components/button";
+@import "./components/icon-block";
+@import "./components/menu";
+@import "./components/burger";
+@import "./components/breadcrumbs";
+
+// подключения компонентов страницы
+@import "./components/header";
+@import "./components/cart";
+@import "./components/footer";

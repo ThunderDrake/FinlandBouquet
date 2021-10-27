@@ -9,23 +9,15 @@
   <meta name="theme-color" content="#111111">
   <title>New site</title>
   <link rel="stylesheet" href="css/vendor.css">
-  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/cart.css">
 </head>
 
 <body>
   <div class="site-container">
-    <section class="hero-wrapper">
-      @include('partials/header.html')
-      @include('partials/hero.html')
-    </section>
-    @include('partials/catalog.html')
-    @include('partials/steps.html')
-    @include('partials/instagram-section.html')
-    @include('partials/about.html')
-    @include('partials/question.html')
-    @include('partials/form.html')
+    @include('partials/header-static.html')
+    @include('partials/breadcrumbs.html')
+    @include('partials/cart-section.html')
     @include('partials/footer.html')
-    <!-- @include('html/h1.html') пример инклуда -->
   </div>
   <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
   <script src="js/vendor.js"></script>
